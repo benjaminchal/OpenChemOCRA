@@ -1,1 +1,5 @@
-sorce/build/
+source/build/
+*.swp
+*.aux
+*.log
+*.toc
