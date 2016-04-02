@@ -3,3 +3,4 @@ source/build/
 *.aux
 *.log
 *.toc
+*.sh
