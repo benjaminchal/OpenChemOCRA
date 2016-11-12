@@ -7,17 +7,29 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{chemmacros}
+
+\usechemmodule{redox}
 \usepackage{chemfig}
 \usepackage{gensymb}
-\author{Benjamin Chalmers}
+\author{Benjamin Chalmers, David Codjoe}
 \title{A Level Chemistry OCR A 2015}
 \addto\captionsenglish{%
  \renewcommand\chaptername{Module}}
 \newcommand*\conj[1]{#1}
 \newcommand*\mean[1]{\bar{#1}}
+\usepackage[bookmarks]{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\graphicspath{{../figures/}}
+
+%\IfChemCompatibilityT{>=}{5.0}{\usechemmodule{all}}
 
 \begin{document}
-
 
 \frontmatter
 \maketitle
@@ -39,4 +51,6 @@
 
 \include{module5}
 
+\include{module6}
 \end{document}
+
