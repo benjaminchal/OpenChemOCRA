@@ -4,6 +4,18 @@ and emphasises the importance of organic synthesis.
 This module also adds NMR spectroscopy to the instrumentation techniques used in organic and forensic analysis.'
 
 \section{Aromatic Compounds 6.1.1}
+
+6 \setbondoffset{0pt}
+7 \chemfig{
+8 ?\orbital{p}
+9 -[,1.3]{\orbital[phase=-]{p}}
+10 -[:30,1.1]\orbital{p}
+11 -[:150,.9]{\orbital[phase=-]{p}}
+12 -[4,1.3]\orbital{p}
+13 -[:-150,1.1]{\orbital[phase=-]{p}}?
+14 }
+15 \vspace{7mm}
+
 	\paragraph{Benzene} has had two models, the evidence for each we will later examine, they are as follows:
 	\begin{center}
 	\chemfig{*6(-=-=-=)}
@@ -25,8 +37,55 @@ This module also adds NMR spectroscopy to the instrumentation techniques used in
 	
 	\paragraph{The evidence againced the Kekul\'{e} model,}
 	\begin{enumerate}
-		\item The low reactivity of benzene suggests that there are no double bonds present.
-		The C=C bond present should decolourise bromine, however benzene dosn't decolourise bromine.
+		\item The resistance to reaction of benzene suggests that there are no double bonds present.
+		WS
+	    This is down to the low electron dencity of a delocalised $\pi$ bond system, as oppose to the localised $\pi$ bonds in alkenes
 		
-		\item X-ray defraction 
+		The C=C bond present should decolourise bromine water, however benzene dosn't decolourise bromine water.
+		
+		\item  The differing bond lengths in benzene appear to refute the Kekul\'{e} model.
+		This is because all bond lengths are the same in benzene however, in $\pi$ bonds, we would expect shorter bond lenths than $\sigma$ bonds.
+		
+		\item The entalpy change of hydrogenation in benzene. 
+		We would expect the enthalpy of hydrogonation in benzene to be triple that in cyclohexene (following the Kekul\'{e} model).
+		However it isn't, less energy is produced than expected, leading us to the conclution that it is more stable than Kekul\'{e}'s model would suggest.
 	\end{enumerate}
+	
+	\paragraph{IUPAC rules of nomenclature}  for systematically naming substituted aromatic compounds:
+	
+	Benzene is, generally, conciderd the pairent chain where one substitutuent group is monosubstituted. 
+	This means that we can name substences like Chlorobenzene, nitrobenzene and, if a small alkyl group is monosubstituted, ethylbenzene.
+	
+	Where an alkyl group has 7 or more carbon atoms it becomes the main chain and the benzene the substituent group. In these cases phenol is used as the prefix. This is also the case if the alkyle chain has a functional group. e.g:
+	\begin{center}
+		\chemfig{**6(-@{a,0}---([:90]-COCH_3)--)}
+	    \chemmove{\draw (a)  node[below] {phenylethone};}\hspace{2cm}
+	    \chemfig{**6(-@{a,0}---([:90]-C_7H_{15})--)}
+	    \chemmove{\draw (a)  node[below] {phenylheptane};}\hspace{1.5cm}
+	    \chemfig{**6(-@{a,0}---([2]-C([2]-H)([4]-H_{13}C_6)([0]-CH_3))--)}
+	    \chemmove{\draw (a)  node[below] {2-phenyloctane};}
+
+        \vspace{2cm}	
+	\end{center}
+	
+	There are some noteable exceptions however, (just remember them):
+	
+	\begin{center}
+		\chemfig{**6(-@{a,0}---([:90]-COOH)--)}
+	    \chemmove{\draw (a)  node[below] {Benzoic acid};}\hspace{1.5cm}
+	    \chemfig{**6(-@{a,0}---([:90]-NH_2)--)}
+	    \chemmove{\draw (a)  node[below] {phenylamine};}\hspace{1.5cm}
+	    \chemfig{**6(-@{a,0}---([2]-CHO)--)}
+	    \chemmove{\draw (a)  node[below] {Benzaldehyde};}
+	    
+	    \vspace{2cm}
+	\end{center}
+	
+	\paragraph{Electrophilic substitution} reactions occer in benzene when an electrophile replaces a hydrogen atom in benzene. The following reactions are covered in this section:
+	
+	\begin{itemize}
+		\item Concentrated nitric acid in the precence of concentrated sulfuric acid (the nitration of benzene)
+		
+		\chemfig{**6(------)} \ch{+ HNO_3 ->[H_2SO_4][50\degree C]} \chemfig{**6(----([2]-NO_2)--)}
+		
+	\end{itemize}
