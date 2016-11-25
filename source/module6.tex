@@ -4,18 +4,6 @@ and emphasises the importance of organic synthesis.
 This module also adds NMR spectroscopy to the instrumentation techniques used in organic and forensic analysis.'
 
 \section{Aromatic Compounds 6.1.1}
-
-6 \setbondoffset{0pt}
-7 \chemfig{
-8 ?\orbital{p}
-9 -[,1.3]{\orbital[phase=-]{p}}
-10 -[:30,1.1]\orbital{p}
-11 -[:150,.9]{\orbital[phase=-]{p}}
-12 -[4,1.3]\orbital{p}
-13 -[:-150,1.1]{\orbital[phase=-]{p}}?
-14 }
-15 \vspace{7mm}
-
 	\paragraph{Benzene} has had two models, the evidence for each we will later examine, they are as follows:
 	\begin{center}
 	\chemfig{*6(-=-=-=)}
@@ -85,7 +73,14 @@ This module also adds NMR spectroscopy to the instrumentation techniques used in
 	
 	\begin{itemize}
 		\item Concentrated nitric acid in the precence of concentrated sulfuric acid (the nitration of benzene)
+		\begin{center}
 		
-		\chemfig{**6(------)} \ch{+ HNO_3 ->[H_2SO_4][50\degree C]} \chemfig{**6(----([2]-NO_2)--)}
+		\schemestart
+\chemfig{**6(------)}\+\chemfig{HNO_3}
+\arrow{->[\footnotesize\chemfig{H_2SO_4}][\footnotesize 50\degree C]}
+\chemfig{**6(----([2]-NO_2)--)}\+\chemfig{H_2O}
+\schemestop
+		\end{center}
+		
 		
 	\end{itemize}
