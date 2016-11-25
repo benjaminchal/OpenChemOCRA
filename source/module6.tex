@@ -17,31 +17,31 @@ This module also adds NMR spectroscopy to the instrumentation techniques used in
 	\textit{Benzene delocalised model}
 	\end{center}
 	
-	\paragraph{The Kekul\'{e} model} of benzene hypotisises that there are 3 $\pi$ bonds and 6 $\sigma$ bonds.
-	This was a conveniant way to describe the bonding in benzene but has, in recent years, been replaced by the more accurate delocalised model of benzene.
+	\paragraph{The Kekul\'{e} model} of benzene hypothesises that there are 3 $\pi$ bonds and 6 $\sigma$ bonds.
+	This was a convenient way to describe the bonding in benzene but has, in recent years, been replaced by the more accurate delocalised model of benzene.
 	
-	\paragraph{The Delocalised model} of benzene is the one that is now generaly accepted. 
+	\paragraph{The Delocalised model} of benzene is the one that is now generally accepted. 
 	It describes benzene's bonding in terms of a sideways overlap of the P orbitals (in the carbon atoms) above and bellow the plain, in a delocalised `system' of $\pi$ bonds.
 	
-	\paragraph{The evidence againced the Kekul\'{e} model,}
+	\paragraph{The evidence against the Kekul\'{e} model,}
 	\begin{enumerate}
 		\item The resistance to reaction of benzene suggests that there are no double bonds present.
 		WS
-	    This is down to the low electron dencity of a delocalised $\pi$ bond system, as oppose to the localised $\pi$ bonds in alkenes
+	    This is down to the low electron density of a delocalised $\pi$ bond system, as oppose to the localised $\pi$ bonds in alkenes
 		
-		The C=C bond present should decolourise bromine water, however benzene dosn't decolourise bromine water.
+		The C=C bond present should decolourise bromine water, however benzene doesn't decolourise bromine water.
 		
 		\item  The differing bond lengths in benzene appear to refute the Kekul\'{e} model.
 		This is because all bond lengths are the same in benzene however, in $\pi$ bonds, we would expect shorter bond lenths than $\sigma$ bonds.
 		
-		\item The entalpy change of hydrogenation in benzene. 
-		We would expect the enthalpy of hydrogonation in benzene to be triple that in cyclohexene (following the Kekul\'{e} model).
-		However it isn't, less energy is produced than expected, leading us to the conclution that it is more stable than Kekul\'{e}'s model would suggest.
+		\item The enthalpy change of hydrogenation in benzene. 
+		We would expect the enthalpy of hydrogenation in benzene to be triple that in cyclohexene (following the Kekul\'{e} model).
+		However it isn't, less energy is produced than expected, leading us to the conclusion that it is more stable than Kekul\'{e}'s model would suggest.
 	\end{enumerate}
 	
 	\paragraph{IUPAC rules of nomenclature}  for systematically naming substituted aromatic compounds:
 	
-	Benzene is, generally, conciderd the pairent chain where one substitutuent group is monosubstituted. 
+	Benzene is, generally, considered the parent chain where one substituent group is monosubstituted. 
 	This means that we can name substences like Chlorobenzene, nitrobenzene and, if a small alkyl group is monosubstituted, ethylbenzene.
 	
 	Where an alkyl group has 7 or more carbon atoms it becomes the main chain and the benzene the substituent group. In these cases phenol is used as the prefix. This is also the case if the alkyle chain has a functional group. e.g:
@@ -72,15 +72,105 @@ This module also adds NMR spectroscopy to the instrumentation techniques used in
 	\paragraph{Electrophilic substitution} reactions occer in benzene when an electrophile replaces a hydrogen atom in benzene. The following reactions are covered in this section:
 	
 	\begin{itemize}
-		\item Concentrated nitric acid in the precence of concentrated sulfuric acid (the nitration of benzene)
+		\item Concentrated nitric acid in the presence of concentrated sulphuric acid.
+		The nitration of benzene:
 		\begin{center}
-		
 		\schemestart
-\chemfig{**6(------)}\+\chemfig{HNO_3}
-\arrow{->[\footnotesize\chemfig{H_2SO_4}][\footnotesize 50\degree C]}
-\chemfig{**6(----([2]-NO_2)--)}\+\chemfig{H_2O}
-\schemestop
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{HNO_3}
+         \arrow{->[\footnotesize\chemfig{H_2SO_4}][\footnotesize 50\degree C]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-NO_2)--)}\arrow{0}[,0]\+\chemfig{H_2O}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		This reaction is done in a water bath to maintain a steady temperature.
+		
+		\item The next reaction is in the presence of a halogen carrier, to generate the halogen electrophile.
+		Halogen carriers include iron, iron halides and aluminium halides.
+		The halogenation of benzene:
+		
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{Br_2}
+         \arrow{->[\footnotesize\chemfig{AlBr_3}]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-Br)--)}\arrow{0}[,0]\+\chemfig{HBr}
+		 \arrow{0}[,0]
+		\schemestop
 		\end{center}
 		
+		\item Last, but not least, is the Friedel–Crafts reaction.
+		This is a haloalkane (or an acyl chloride) in the presence of a halogen carrier and its reaction with benzene.
+		This reaction is important as it forms a C-C bond to an aromatic ring.
+		In the case of a haloalkane:
 		
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{C_2H5Cl}
+         \arrow{->[\footnotesize\chemfig{AlCl_3}]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-C_2H_5)--)}\arrow{0}[,0]\+\chemfig{HCl}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		
+		and in the case of a acyl chloride
+		
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{CH_3COCl}
+         \arrow{->[\footnotesize\chemfig{AlCl_3}]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-C([1]-CH_3)([3]=O))--)}\arrow{0}[,0]\+\chemfig{HCl}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
 	\end{itemize}
+	
+	You are, of course, expected to know some related reaction mechanisms.
+	\begin{center}
+		\schemestart
+		\chemfig{**[120,420]6(---(-[,-1,,,draw=none]{+})-(-[:120]H)(-[:60]Br)--)}
+		\schemestop
+	\end{center}
+	{TO BE CONTINUED]
+	
+	You should, from this, be able to predict the mechanisms of similar but unfamiliar electrophilic substitution mechanisms of aromatic compounds.
+	
+	\paragraph{Phenol} is a specific aromatic compound with a hydroxyl group (OH group).
+	It has the following structure:
+	\begin{center}
+	\chemfig{**6(----([:90]-OH)--)}
+	\end{center}
+	Phenol is weekly acidic, as shown by it's neutralisation reaction with NaOH, however it cannot react with carbonates.
+	
+	\paragraph{List of phenol electrophilic substitutions}:
+	\begin{itemize}
+		\item The bromination of phenol:
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(----([2]-OH)--)}\arrow{0}[,0]\+\chemfig{3Br_2}
+         \arrow
+		 \arrow{0}[,0]\chemfig{**6(-([6]-Br)--([1]-Br)-([2]-OH)-([3]-Br)-)}\arrow{0}[,0]\+\chemfig{3HBr}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		
+		\item The nitration of phenol:
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(----([2]-OH)--)}\arrow{0}[,0]\+\chemfig{HNO_3}
+         \arrow
+		 \arrow{0}[,0]\chemfig{**6(---([1]-NO_2)-([2]-OH)--)}\arrow{0}[,0]\+\chemfig{H_2O}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		Note that nitration with phenol does not require concentrated \ch{HNO3} or the presence of a concentrated \ch{H2SO4} catalyst (like benzene).
+	\end{itemize}
+	
+	As you can see, phenol undergoes electrophilic substitution with relative ease, as compared to phenol.
+	This is because the OH group `activates' the ring.
+	Meaning the oxygen donates an electron pair (from the P orbital) to the delocalised $\pi$ bond system, this subsiquently increases the electron density and hence allows it to undergo electrophilic addition with relative ease.
+	
