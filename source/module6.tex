@@ -172,5 +172,115 @@ This module also adds NMR spectroscopy to the instrumentation techniques used in
 	
 	As you can see, phenol undergoes electrophilic substitution with relative ease, as compared to phenol.
 	This is because the OH group `activates' the ring.
-	Meaning the oxygen donates an electron pair (from the P orbital) to the delocalised $\pi$ bond system, this subsiquently increases the electron density and hence allows it to undergo electrophilic addition with relative ease.
+	Meaning the oxygen donates an electron pair (from the P orbital) to the delocalised $\pi$ bond system, this subsiquently increases the electron density and allows the ring `attack' molecules and produce electrophiles.
+	
+	The two electron donating groups (that are covered) are \ch{OH} and \ch{NH2}.
+	There are also electron withdrawing groups, which make the ring less susceptible to electropilic substitution (which become important when considering directing).
+	The one covered here is \ch{NH2}.
+	
+	\paragraph{Directing} of groups is determined by whether the aromatic molecule has an electron donating group, or an electron withdrawing group.
+	Electron donating groups (like \ch{OH} and \ch{NH2}) cause a 2-, 4- directing effect; Electron withdrawing groups (like \ch{NH2}) cause a 3- directing effect.
+	
+	\textit{[THERE IS PROBABLY MORE TO SAY]}
+	
+\section{Carbonyl compounds 6.1.2}
+
+	\begin{center}
+		\chemfig{H-[1]R=[7]O}\hspace{3cm}}
+		
+		Aldyhides and Ketones
+	\end{center}
+	
+	\paragraph{Further oxidations} Ketones can undergo further oxidation to form carboxylic acids. This is exactly the same as the reaction seen in section \ref{pt:Oxidation of Primary Alcohols}.
+	\begin{center}
+		\schemestart
+		\chemfig{C([3]-H)([-3]-H)=O}\+\chemfig{[O]}
+		\arrow{->[\footnotesize\chemfig{K_2Cr_2O_7^{2-}/H^+}][redox]}[,1.5]		
+		\chemfig{C([3]-H)([-3]-H)=OH}\+\chemfig{2H_2O}
+		\schemestop
+	\end{center}
+	
+	\paragraph{Nucleophilic addition} reactions of carbonyl compounds:
+	\begin{itemize}
+		\item Reducing an aldehyde
+		
+		\begin{center}
+			\schemestart
+			 \chemfig{C([3]-H)([-3]-H)=O}\+\chemfig{2[H]}
+			 \arrow{->[\footnotesize\chemfig{NaBH_4/H_2O}]}[,1.5]
+			 \chemfig{H-C([:90]-H)([:-90]-H)-OH}
+			\schemestop
+		\end{center}
+		
+		\item reducing a ketone
+		
+		\begin{center}
+			\schemestart
+			 \chemfig{H-C([:90]-H)([:-90]-H)-C([:-90]=O)-C([:90]-H)([:-90]-H)-H}\+\chemfig{2[H]}
+			 \arrow{->[\footnotesize\chemfig{NaBH_4/H_2O}]}[,1.5]
+			 \chemfig{H-C([:90]-H)([:-90]-H)-C([:-90]-OH)([:90]-H)-C([:90]-H)([:-90]-H)-H}
+			\schemestop
+		\end{center}
+		
+		\item Reaction with HCN (works with ketones too) adds across the C=O bond.
+		
+		\begin{center}
+			\schemestart
+			 \chemfig{C([3]-H)([-3]-H)=O}\+\chemfig{HCN}
+			 \arrow{->[\footnotesize\chemfig{NaCN/H^+}]}[,1.5]
+			 \chemfig{H-C([:90]-H)([:-90]-OH)-CN}
+			\schemestop
+		\end{center}
+		
+	\end{itemize}
+	
+	[TBC: the mechanism for nucleophilic additionreactions of aldehydes and ketones with NaBH4 and HCN need also to be learnt]
+	
+	\paragraph{Testing for carbonyl compounds} is done by a multi-stage process. 
+	We use a compound called  2,4-dinitrophenylhydrazine (2,4-DNP) to test for the precence of a carbonyl group then use Tollens' regent (ammonical silver nitrate) to further distinguish between aldehydes and ketones. 
+	
+	\begin{enumerate}
+		\item Mix 2,4-DNP, dissolved in methanol, with sulphuric acid to form a pale orange solution
+		
+		\item Add about 5cm of this solution to a test tube
+		
+		\item Add a few drops of the unknown solution
+		
+		\item Add a few drops of sulphuric acid
+		
+		\item If an orange/yellow precipitate forms this indicated the presence of an aldehyde or ketone (If no precipitate end here, a carbonyl group isn't present)\footnote{To identify the specific carbonyl compound a melting point test can be done. This will require filtration of the solution and a data table to compare results.}
+		
+		\item Now add, to another test tube, 3cm of aqueous silver nitrate
+		
+		\item Add sodium hydroxide until a brown precipitate is formed (Silver Oxide)
+		
+		\item Add dilute ammonia to dissolve the the brown solution, leaving you with a colourless solution, this is known as Tollens' regent
+		
+		\item Into another test pour 2cm of the unknown solution
+		
+		\item Add, to this, an equal amount of the fresh Tollens' regent (made earlier)
+		
+		\item Leave this test tube in a water bath at around 50\degree C for about 10-15 minutes
+		
+		\item If a `silver mirror' forms then the solution is an aldehyde, else it is a ketone
+	\end{enumerate}
+	
+	\paragraph{Tollens' reagent} or ammoniacal silver nitrate distinguishes between aldehydes and ketones. It does this through the oxidation of aldehydes to carboxylic acids and the reduction of silver ions to silver.
+	
+	\begin{center}
+		\schemestart
+		 \chemfig{R-C([1]=O)([-1]-H)}\+ [O]
+		 \arrow{->[Oxidation]}[,1.5]
+		 \chemfig{R-C([1]=O)([-1]-OH)}
+		\schemestop
+	\end{center}
+	\begin{center}
+		\schemestart
+		 \chemfig{Ag^+\aq{}}\+\chemfig{e^{-}}
+		 \arrow{->[Reduction]}[,1.5]
+		 \chemfig{Ag\sld{}}
+		\schemestop
+	\end{center}
+	
+\section{Carboxylic acids and esters 6.1.3}
 	
