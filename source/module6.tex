@@ -1,1 +1,326 @@
 \chapter{Organic chemistry and analysis}
+`This module introduces several new functional groups
+and emphasises the importance of organic synthesis.
+This module also adds NMR spectroscopy to the instrumentation techniques used in organic and forensic analysis.'
+
+\section{Aromatic Compounds 6.1.1}
+	\paragraph{Benzene} has had two models, the evidence for each we will later examine, they are as follows:
+	\begin{center}
+	\chemfig{*6(-=-=-=)}
+
+	\textit{Kekul\'{e} model of benzene}
+	
+	\vspace{7mm}	
+	
+	\chemfig{**6(------)}
+
+	\textit{Benzene delocalised model}
+	\end{center}
+	
+	\paragraph{The Kekul\'{e} model} of benzene hypothesises that there are 3 $\pi$ bonds and 6 $\sigma$ bonds.
+	This was a convenient way to describe the bonding in benzene but has, in recent years, been replaced by the more accurate delocalised model of benzene.
+	
+	\paragraph{The Delocalised model} of benzene is the one that is now generally accepted. 
+	It describes benzene's bonding in terms of a sideways overlap of the P orbitals (in the carbon atoms) above and bellow the plain, in a delocalised `system' of $\pi$ bonds.
+	
+	\paragraph{The evidence against the Kekul\'{e} model,}
+	\begin{enumerate}
+		\item The resistance to reaction of benzene suggests that there are no double bonds present.
+		WS
+	    This is down to the low electron density of a delocalised $\pi$ bond system, as oppose to the localised $\pi$ bonds in alkenes
+		
+		The C=C bond present should decolourise bromine water, however benzene doesn't decolourise bromine water.
+		
+		\item  The differing bond lengths in benzene appear to refute the Kekul\'{e} model.
+		This is because all bond lengths are the same in benzene however, in $\pi$ bonds, we would expect shorter bond lenths than $\sigma$ bonds.
+		
+		\item The enthalpy change of hydrogenation in benzene. 
+		We would expect the enthalpy of hydrogenation in benzene to be triple that in cyclohexene (following the Kekul\'{e} model).
+		However it isn't, less energy is produced than expected, leading us to the conclusion that it is more stable than Kekul\'{e}'s model would suggest.
+	\end{enumerate}
+	
+	\paragraph{IUPAC rules of nomenclature}  for systematically naming substituted aromatic compounds:
+	
+	Benzene is, generally, considered the parent chain where one substituent group is monosubstituted. 
+	This means that we can name substences like Chlorobenzene, nitrobenzene and, if a small alkyl group is monosubstituted, ethylbenzene.
+	
+	Where an alkyl group has 7 or more carbon atoms it becomes the main chain and the benzene the substituent group. In these cases phenol is used as the prefix. This is also the case if the alkyle chain has a functional group. e.g:
+	\begin{center}
+		\chemfig{**6(-@{a,0}---([:90]-COCH_3)--)}
+	    \chemmove{\draw (a)  node[below] {phenylethone};}\hspace{2cm}
+	    \chemfig{**6(-@{a,0}---([:90]-C_7H_{15})--)}
+	    \chemmove{\draw (a)  node[below] {phenylheptane};}\hspace{1.5cm}
+	    \chemfig{**6(-@{a,0}---([2]-C([2]-H)([4]-H_{13}C_6)([0]-CH_3))--)}
+	    \chemmove{\draw (a)  node[below] {2-phenyloctane};}
+
+        \vspace{2cm}	
+	\end{center}
+	
+	There are some noteable exceptions however, (just remember them):
+	
+	\begin{center}
+		\chemfig{**6(-@{a,0}---([:90]-COOH)--)}
+	    \chemmove{\draw (a)  node[below] {Benzoic acid};}\hspace{1.5cm}
+	    \chemfig{**6(-@{a,0}---([:90]-NH_2)--)}
+	    \chemmove{\draw (a)  node[below] {phenylamine};}\hspace{1.5cm}
+	    \chemfig{**6(-@{a,0}---([2]-CHO)--)}
+	    \chemmove{\draw (a)  node[below] {Benzaldehyde};}
+	    
+	    \vspace{2cm}
+	\end{center}
+	
+	\paragraph{Electrophilic substitution} reactions occer in benzene when an electrophile replaces a hydrogen atom in benzene. The following reactions are covered in this section:
+	
+	\begin{itemize}
+		\item Concentrated nitric acid in the presence of concentrated sulphuric acid.
+		The nitration of benzene:
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{HNO_3}
+         \arrow{->[\footnotesize\chemfig{H_2SO_4}][\footnotesize 50\degree C]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-NO_2)--)}\arrow{0}[,0]\+\chemfig{H_2O}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		This reaction is done in a water bath to maintain a steady temperature.
+		
+		\item The next reaction is in the presence of a halogen carrier, to generate the halogen electrophile.
+		Halogen carriers include iron, iron halides and aluminium halides.
+		The halogenation of benzene:
+		
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{Br_2}
+         \arrow{->[\footnotesize\chemfig{AlBr_3}]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-Br)--)}\arrow{0}[,0]\+\chemfig{HBr}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		
+		\item Last, but not least, is the Friedel–Crafts reaction.
+		This is a haloalkane (or an acyl chloride) in the presence of a halogen carrier and its reaction with benzene.
+		This reaction is important as it forms a C-C bond to an aromatic ring.
+		In the case of a haloalkane:
+		
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{C_2H5Cl}
+         \arrow{->[\footnotesize\chemfig{AlCl_3}]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-C_2H_5)--)}\arrow{0}[,0]\+\chemfig{HCl}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		
+		and in the case of a acyl chloride
+		
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(------)}\arrow{0}[,0]\+\chemfig{CH_3COCl}
+         \arrow{->[\footnotesize\chemfig{AlCl_3}]}
+		 \arrow{0}[,0]\chemfig{**6(----([2]-C([1]-CH_3)([3]=O))--)}\arrow{0}[,0]\+\chemfig{HCl}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+	\end{itemize}
+	
+	You are, of course, expected to know some related reaction mechanisms.
+	\begin{center}
+		\schemestart
+		\chemfig{**[120,420]6(---(-[,-1,,,draw=none]{+})-(-[:120]H)(-[:60]Br)--)}
+		\schemestop
+	\end{center}
+	{TO BE CONTINUED]
+	
+	You should, from this, be able to predict the mechanisms of similar but unfamiliar electrophilic substitution mechanisms of aromatic compounds.
+	
+	\paragraph{Phenol} is a specific aromatic compound with a hydroxyl group (OH group).
+	It has the following structure:
+	\begin{center}
+	\chemfig{**6(----([:90]-OH)--)}
+	\end{center}
+	Phenol is weekly acidic, as shown by it's neutralisation reaction with NaOH, however it cannot react with carbonates.
+	
+	\paragraph{List of phenol electrophilic substitutions}:
+	\begin{itemize}
+		\item The bromination of phenol:
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(----([2]-OH)--)}\arrow{0}[,0]\+\chemfig{3Br_2}
+         \arrow
+		 \arrow{0}[,0]\chemfig{**6(-([6]-Br)--([1]-Br)-([2]-OH)-([3]-Br)-)}\arrow{0}[,0]\+\chemfig{3HBr}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		
+		\item The nitration of phenol:
+		\begin{center}
+		\schemestart
+		 \arrow{0}[,0]
+         \chemfig{**6(----([2]-OH)--)}\arrow{0}[,0]\+\chemfig{HNO_3}
+         \arrow
+		 \arrow{0}[,0]\chemfig{**6(---([1]-NO_2)-([2]-OH)--)}\arrow{0}[,0]\+\chemfig{H_2O}
+		 \arrow{0}[,0]
+		\schemestop
+		\end{center}
+		Note that nitration with phenol does not require concentrated \ch{HNO3} or the presence of a concentrated \ch{H2SO4} catalyst (like benzene).
+	\end{itemize}
+	
+	As you can see, phenol undergoes electrophilic substitution with relative ease, as compared to phenol.
+	This is because the OH group `activates' the ring.
+	Meaning the oxygen donates an electron pair (from the P orbital) to the delocalised $\pi$ bond system, this subsiquently increases the electron density and allows the ring `attack' molecules and produce electrophiles.
+	
+	The two electron donating groups (that are covered) are \ch{OH} and \ch{NH2}.
+	There are also electron withdrawing groups, which make the ring less susceptible to electropilic substitution (which become important when considering directing).
+	The one covered here is \ch{NH2}.
+	
+	\paragraph{Directing} of groups is determined by whether the aromatic molecule has an electron donating group, or an electron withdrawing group.
+	Electron donating groups (like \ch{OH} and \ch{NH2}) cause a 2-, 4- directing effect; Electron withdrawing groups (like \ch{NH2}) cause a 3- directing effect.
+	
+	\textit{[THERE IS PROBABLY MORE TO SAY]}
+	
+\section{Carbonyl compounds 6.1.2}
+
+	\begin{center}
+		\chemfig{H-[1]R=[7]O}\hspace{3cm}
+		
+		Aldyhides and Ketones
+	\end{center}
+	
+	\paragraph{Further oxidations} Ketones can undergo further oxidation to form carboxylic acids. This is exactly the same as the reaction seen in section \ref{pt:Oxidation of Primary Alcohols}.
+	\begin{center}
+		\schemestart
+		\chemfig{C([3]-H)([-3]-H)=O}\+\chemfig{[O]}
+		\arrow{->[\footnotesize\chemfig{K_2Cr_2O_7^{2-}/H^+}][redox]}[,1.5]		
+		\chemfig{C([3]-H)([-3]-H)=OH}\+\chemfig{2H_2O}
+		\schemestop
+	\end{center}
+	
+	\paragraph{Nucleophilic addition} reactions of carbonyl compounds:
+	\begin{itemize}
+		\item Reducing an aldehyde
+		
+		\begin{center}
+			\schemestart
+			 \chemfig{C([3]-H)([-3]-H)=O}\+\chemfig{2[H]}
+			 \arrow{->[\footnotesize\chemfig{NaBH_4/H_2O}]}[,1.5]
+			 \chemfig{H-C([:90]-H)([:-90]-H)-OH}
+			\schemestop
+		\end{center}
+		
+		\item reducing a ketone
+		
+		\begin{center}
+			\schemestart
+			 \chemfig{H-C([:90]-H)([:-90]-H)-C([:-90]=O)-C([:90]-H)([:-90]-H)-H}\+\chemfig{2[H]}
+			 \arrow{->[\footnotesize\chemfig{NaBH_4/H_2O}]}[,1.5]
+			 \chemfig{H-C([:90]-H)([:-90]-H)-C([:-90]-OH)([:90]-H)-C([:90]-H)([:-90]-H)-H}
+			\schemestop
+		\end{center}
+		
+		\item Reaction with HCN (works with ketones too) adds across the C=O bond.
+		
+		\begin{center}
+			\schemestart
+			 \chemfig{C([3]-H)([-3]-H)=O}\+\chemfig{HCN}
+			 \arrow{->[\footnotesize\chemfig{NaCN/H^+}]}[,1.5]
+			 \chemfig{H-C([:90]-H)([:-90]-OH)-CN}
+			\schemestop
+		\end{center}
+		
+	\end{itemize}
+	
+	[TBC: the mechanism for nucleophilic additionreactions of aldehydes and ketones with NaBH4 and HCN need also to be learnt]
+	
+	\paragraph{Testing for carbonyl compounds} is done by a multi-stage process. 
+	We use a compound called  2,4-dinitrophenylhydrazine (2,4-DNP) to test for the precence of a carbonyl group then use Tollens' regent (ammonical silver nitrate) to further distinguish between aldehydes and ketones. 
+	
+	\begin{enumerate}
+		\item Mix 2,4-DNP, dissolved in methanol, with sulphuric acid to form a pale orange solution
+		
+		\item Add about 5cm of this solution to a test tube
+		
+		\item Add a few drops of the unknown solution
+		
+		\item Add a few drops of sulphuric acid
+		
+		\item If an orange/yellow precipitate forms this indicated the presence of an aldehyde or ketone (If no precipitate end here, a carbonyl group isn't present)\footnote{To identify the specific carbonyl compound a melting point test can be done. This will require filtration of the solution and a data table to compare results.}
+		
+		\item Now add, to another test tube, 3cm of aqueous silver nitrate
+		
+		\item Add sodium hydroxide until a brown precipitate is formed (Silver Oxide)
+		
+		\item Add dilute ammonia to dissolve the the brown solution, leaving you with a colourless solution, this is known as Tollens' regent
+	
+		\item Into another test pour 2cm of the unknown solution
+		
+		\item Add, to this, an equal amount of the fresh Tollens' regent (made earlier)
+		
+		\item Leave this test tube in a water bath at around 50\degree C for about 10-15 minutes
+		
+		\item If a `silver mirror' forms then the solution is an aldehyde, else it is a ketone
+	\end{enumerate}
+	
+	\paragraph{Tollens' reagent} or ammoniacal silver nitrate distinguishes between aldehydes and ketones. It does this through the oxidation of aldehydes to carboxylic acids and the reduction of silver ions to silver.
+	
+	\begin{center}
+		\schemestart
+		 \chemfig{R-C([1]=O)([-1]-H)}\+ [O]
+		 \arrow{->[Oxidation]}[,1.5]
+		 \chemfig{R-C([1]=O)([-1]-OH)}
+		\schemestop
+	\end{center}
+	\begin{center}
+		\schemestart
+		 \chemfig{Ag^+\aq{}}\+\chemfig{e^{-}}
+		 \arrow{->[Reduction]}[,1.5]
+		 \chemfig{Ag\sld{}}
+		\schemestop
+	\end{center}
+	
+\section{Carboxylic acids and esters 6.1.3}
+	
+	\paragraph{Properties of carboxylic acids} Carboxylic are water soluble, this is as a result of hydrogen bonding between the carboxylic acid and water.
+	The O-H$^{\delta +}$ and C=O$^{\delta -}$ groups can hydrogen bonded to the O$^{\delta -}$ and H$^{\delta +}$ respectively in water.
+	The smaller the non-polar carbon chain, the more soluble in water the carboxylic acid is (as a higher proportion of the molecules can hydrogen bond).
+	
+	\paragraph{Reactions with metals} Carboxylic acids react with metals in a redox reaction to form a carboxlite salt and hydrogen gas.
+	
+	\paragraph{Reactions with carbonates} Carboxylic acids react with carbonates to form water and CO$_2$.
+	
+	\paragraph{Reactions with metal oxides} Carboxylic acids react with metal oxides to form salt and water.
+	
+	\paragraph{Reactions with alkalis} Carboxylic acids react with alkalies to form a salt and water.
+	
+	%CONCIDER ADDING EXAMPLES
+	
+	\paragraph{Esterification} The esterification of carboxylic acids can be done with alcohol and a H$_2$SO$_4$ catalyst.
+	The products are the carboxylic acid and water.
+	
+	Acid anhydrides can also form esters in a simalar fashion. 
+	In the presence of an alcohol they break at the O atom and form a carboxylic acid and an ester as a product.\footnote{An acid anhydride is a compound that has two acyl groups bonded to the same oxygen atom.}
+	
+	%DIAGRAM REQUIRED
+	
+	\paragraph{Hydrolisis of esters} an ester can be `turned back' into a carboxylic acid and alcohol.
+	This is done by the addition of hot aqueous acid.
+	
+	By adding hot aqueous alkili we can form carboxylate salts and alcohols.
+	
+	\paragraph{Acyl chlorides} are formed from carboxylic acids with SOCl$_2$.
+	They are very reactive and so useful in organic synthisis.
+	Acyl chlorides can be used to form esters, carboxylic acids and secondary amides.
+	
+	\begin{itemize}
+		\item Acyl chlorides can be used to make esters with alcohols with the ester and HCl being the products.
+		Carboxylic acid are not reactice enough to from esters with phenol, however Acyl Chloride can. \footnote{Try not to breath hydrogen chloride in.}
+		
+		\item Acyl chlorides can be used to make carboxylic acid by adding water.
+		This will result in a rather violent reaction releasing HCl.
+		
+		\item To be added, figures are required.
+	\end{itemize}
